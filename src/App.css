@@ -41,6 +41,7 @@
 }
 
 .bubble {
+  display: grid;
   position: absolute;
   width: 306px;
   height: 90px;
@@ -48,6 +49,8 @@
   top: 353px;
   border: 2px solid #252525;
   border-radius: 20px;
+  align-content: center;
+  justify-content: center;
 }
 
 .bubble:before {
@@ -81,19 +84,6 @@
   left: 719px;
   top: 610px;
   border: 1px solid #4B4B4B;
-}
-
-.wordBubble {
-  position: absolute;
-  width: 70px;
-  height: 30px;
-  left: 725px;
-  top: 750px;
-  background: #FFFFFF;
-  border: 1px solid #C9C9C9;
-  box-sizing: border-box;
-  box-shadow: 0px 8px 4px -6px rgba(0, 0, 0, 0.25);
-  border-radius: 13px;
 }
 
 .emptyWordBubble {

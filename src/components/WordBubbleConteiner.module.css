@@ -1,0 +1,19 @@
+.wordBubbleConteiner {
+    position: absolute;
+    left: 719px;
+    top: 750px;
+    display: flex;
+    width: 482px;
+    height: 90px;
+    border: 1px solid green;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+.wordCont {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    height: 45px;
+    width: 80px;
+}

@@ -1,10 +1,8 @@
-import React from 'react';
-import './WordBubbleModule.css';
+import React from "react";
+import classes from "./WordBubble.module.css";
 
-const WordBubble: React.FC<{word:string}> = (props) =>{
-    return(
-        <div className="wordBubble">{props.word}</div>
-    );
-}
+const WordBubble: React.FC<{ key: number; onClick: any }> = (props) => {
+  return <div className={classes.wordBubble}></div>;
+};
 
 export default WordBubble;
